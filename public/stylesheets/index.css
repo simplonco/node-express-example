@@ -1,0 +1,6 @@
+@import "https://fonts.googleapis.com/css?family=Lato:300, 400, 400i, 700";
+@import "https://fonts.googleapis.com/css?family=Lora:300, 400, 400i, 700";
+body {
+  background-color: #FFC0CB;
+  font-family: Lato, Arial, sans-serif;
+  font-size: 14px; }

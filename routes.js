@@ -7,12 +7,7 @@ router.get('/', (request, response) => {
 });
 
 router.get('/robert', (request, response) => {
-  response.render('robert', { title: 'Robert aime le camembert!', check: false });
-});
-
-router.post('/city', (request, response) => {
-  console.log(request.body.city);
-  // response.render('weather');
+  response.render('robert', { title: 'Robert sent le camembert!' });
 });
 
 module.exports = router;
